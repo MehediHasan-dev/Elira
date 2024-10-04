@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+    -- primary meta tags
+     -->
+    <title>Elira</title>
+    <meta name="title" content="elira">
+    <meta name="description" content="This is Jewellery shop website create and deployed by GreateCoderBD">
+
+    <!-- 
+    -- favicon
+     -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    -- custom CSS linked
+     -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    -- google fonts
+     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Actor&family=Alex+Brush&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Rajdhani:wght@300;400;500;600;700&family=Rosario:ital,wght@0,300..700;1,300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+    -- remixicon linked
+     -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css">
+    <!-- 
+    -- swiper CSS linked
+     -->
+
+
+
+    <!-- 
+     -- preload images
+      -->
+    <link rel="preload" href="./assets/images/hero-item-img-1.png">
+    <link rel="preload" href="./assets/images/hero-item-img-2.png">
+</head>
+
+<body>
+
+    <!-- 
+    -- #PRELOADER
+     -->
+
+
+
+    <!-- 
+    -- #HEADER
+     -->
+    <header class="header" data-header>
+        <div class="container header__container">
+
+            <a href="\" aria-label="header logo">
+                <img src="./assets/images/logo.png" width="140" height="52" alt="" class="nav-logo">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+
+                <div class="navbar-top">
+
+                    <a href="\" aria-label="header logo">
+                        <img src="./assets/images/logo.png" width="140" height="52" alt="">
+                    </a>
+
+                    <button class="nav-close-btn" data-nav-toggler aria-label="close menu">
+                        <i class="ri-close-line"></i>
+                    </button>
+
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link label-1 active">Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link label-1">About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link label-1">Gift Coupons</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link label-1">Stores</a>
+                    </li>
+
+                </ul>
+
+
+                <ul class="navbar-action">
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link label-1">Connect</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link label-1">Sign In</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <button class="nav-open-btn" data-nav-toggler aria-label="close menu">
+                <i class="ri-menu-line"></i>
+            </button>
+
+
+
+            <div class="nav-cover" data-overlay data-nav-toggler></div>
+
+        </div>
+    </header>
+
+    <!-- 
+    -- #MAIN
+     -->
+    <main>
+
+        <!-- ---- Hero section ---- -->
+        <section class="hero section text-center" aria-label="home">
+
+            <ul class="hero-slider" data-hero-slider>
+
+                <li class="slider-item active" data-hero-slide-item>
+
+                    <div class="slider-bg">
+
+                        <img src="./assets/images/hero-item-img-1.png" alt="" width="720" height="811"
+                            class="bg-img-1 w-100">
+
+                        <img src="./assets/images/hero-item-img-2.png" alt="" width="720" height="811"
+                            class="bg-img-2 w-100">
+
+                    </div>
+
+                    <h1 class="display-1 hero-title has-before has-after">
+                        E L I R A
+                    </h1>
+
+                    <h2 class="title-1 hero-subtitle">
+                        We add elegance to your freedom
+                    </h2>
+
+
+                    <button class="btn hero-btn">
+
+                        Shop Now
+
+                        <span>
+                            <i class="ri-shopping-bag-2-line" aria-hidden="true"></i>
+                        </span>
+
+                    </button>
+
+                </li>
+
+            </ul>
+
+            <button class="slider-btn prev" aria-label="slider button previous" slide-prev-btn>
+                <i class="ri-arrow-left-s-line" aria-hidden="true"></i>
+            </button>
+
+            <button class="slider-btn next" aria-label="slider button next" slide-next-btn>
+                <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
+            </button>
+
+        </section>
+
+
+        <!-- ---- About section ---- -->
+        <section class="about section text-center" aria-label="about-lable">
+            <div class="container">
+
+                <div class="about-content">
+
+                    <h2 class="title-1 section-title">
+                        Ethnically Handcrafted Jewellery
+                    </h2>
+
+                    <div class="about-text">
+                        <h3 class="title-2 title">Fair Price</h3>
+                        <p class="body-2 text">
+                            Say goodbye to traditional 10x markups. We design fine jewelry that you can wear every
+                            single day.
+                        </p>
+                    </div>
+
+
+
+                    <div class="about-text">
+                        <h3 class="title-2 title">High Quality</h3>
+                        <p class="body-2 text">
+                            We work with expert jewelers who use high-quality and enduring materials, from precious
+                            metals—such as recycled and responsibly mined gold—to ethically sourced diamonds and
+                            AAA-grade gemstones.
+                        </p>
+                    </div>
+
+                    <button class="btn btn-secondary about-btn">
+                        Read More
+                    </button>
+
+                </div>
+
+                <div class="about-banner has-after">
+
+                    <figure class="img-holder  after-shape"
+                        style="--accent-color:hsl(50, 22%, 69%); --width:474; --height:465;">
+                        <img src="./assets/images/about-banner.png" width="474" height="465"
+                            alt="Close-up of two hexagonal-shaped gold necklaces with a clear gemstone pendant"
+                            class="img-cover">
+                    </figure>
+
+                    <a href="#" class="badge-link body-2">
+                        See More
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ---- Collection section ---- -->
+        <section class="collection section " aria-label="collection">
+            <div class="container">
+
+                <div class="title-wrapper text-center">
+
+                    <h2 class="title-1 collection-title">Dive into our everyday wear collection</h2>
+
+                    <a href="#" class="link-btn body-3">See More</a>
+
+                </div>
+
+
+                <ul class="collection-list">
+
+                    <li class="collection-item">
+
+                        <div class="collection-banner has-after">
+
+                            <figure class="img-holder after-shape"
+                                style="--accent-color: hsl(18, 17%, 71%); --width:587; --height:469;">
+                                <img src="./assets/images/collection-item-1.png" width="587" height="469" alt="Earrings"
+                                    class="img-cover">
+                            </figure>
+
+                        </div>
+
+
+                        <h3 class="title-2 title">Earrings</h3>
+
+                    </li>
+
+                    <li class="collection-item">
+
+                        <div class="collection-banner has-after">
+
+                            <figure class="img-holder after-shape"
+                                style="--accent-color: hsl(120, 14%, 90%); --width:587; --height:469;">
+                                <img src="./assets/images/collection-item-2.png" width="587" height="469"
+                                    alt="Necklaces" class="img-cover">
+                            </figure>
+
+                        </div>
+
+
+                        <h3 class="title-2 title">Necklaces</h3>
+
+                    </li>
+
+                </ul>
+
+
+                <button class="slider-btn prev" aria-label="slider button previous" slide-prev-btn>
+                    <i class="ri-arrow-left-s-line" aria-hidden="true"></i>
+                </button>
+
+                <button class="slider-btn next" aria-label="slider button next" slide-next-btn>
+                    <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
+                </button>
+
+
+            </div>
+        </section>
+
+
+        <!-- ---- Make Own section ---- -->
+        <section class="own section text-center" aria-label="Make your own Jewellery">
+            <div class="container">
+
+                <h2 class="title-1 title">
+                    Make Your Own Jewellery
+                </h2>
+
+                <div class="section-banner">
+                    <img src="./assets/images/own-banner-1.png" width="791" height="466" role="img" alt=""
+                        class="w-100 img-1">
+
+                    <div>
+
+                        <figure class="bg-banner" style="--width:559; --height:466;">
+                            <img src="./assets/images/own-banner-2.png" width="559" height="466" role="img" alt=""
+                                class="img-cover img-2">
+
+                            <button class="overlay play-btn">
+
+                                <i class="ri-play-line" aria-hidden="true"></i>
+
+                            </button>
+
+                        </figure>
+
+
+                    </div>
+
+                </div>
+
+                <p class="text body-4">Watch one of our happy customers flaunt their new custom made jewellery</p>
+
+
+            </div>
+        </section>
+
+
+        <!-- ---- New Arrivals section ---- -->
+        <section class="new section text-center" aria-label="new arrivals">
+            <div class="container">
+
+
+
+                <div class="title-wrapper text-center">
+
+                    <h2 class="title-1 title">Exolore New Arrivals</h2>
+
+                    <a href="#" class="link-btn body-3">See More</a>
+
+                </div>
+
+
+
+
+                <div class="section-banner">
+
+                    <div>
+
+                        <div class="main-banner">
+
+
+                            <figure class="bg-banner" style="--width:737; --height:439;">
+                                <img src="./assets/images/new-arrivals-banner-1.png" role="img" alt="" width="737"
+                                    height="439" class="w-100 img-1">
+                            </figure>
+
+                            <div class="indicator">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <figure class="bg-banner" style="--width:523; --height:438;">
+                            <img src="./assets/images/new-arrivals-banner-2.png" width="523" height="438" role="img"
+                                alt="" class="img-cover img-2">
+
+                            <div class="card-cotent">
+
+                                <h2 class="title-1 title">
+                                    Perfect Hoops
+                                </h2>
+
+                                <button class="btn btn-primary card-btn">
+                                    Buy Now
+                                </button>
+
+                            </div>
+
+                        </figure>
+
+
+                    </div>
+
+                </div>
+
+
+                <p class="text body-4">Simple thick small/medium sized gold hoops for everyday wear</p>
+
+            </div>
+        </section>
+
+
+        <!-- ---- brands section ---- -->
+        <section class="brands text-center" aria-label="brand-label">
+            <div class="container">
+
+                <p class="text body-4">
+                    “The brand justifies its name. Freedom with elegance, something that
+                    every woman deserves.”
+                </p>
+
+                <div class="img-wrapper">
+
+                    <img src="./assets/images/brand-1.png" width="168" alt="">
+                    <img src="./assets/images/brand-2.png" width="168" alt="">
+                    <img src="./assets/images/brand-3.png" width="168" alt="">
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 
+    -- #FOOTER
+     -->
+    <footer class="footer" aria-label="footer-label">
+
+        <!-- ---- Footer Top ---- -->
+        <div class="footer-top">
+            <div class="container">
+
+                <a href="\" aria-label="header logo" class="footer-brand">
+                    <img src="./assets/images/logo.png" width="140" height="52" alt="">
+                </a>
+
+            </div>
+        </div>
+
+        <!-- ---- Footer Main ---- -->
+        <div class="footer-main text-center">
+            <div class="container">
+
+                <nav class="footer-nav">
+
+                    <h2 class="body-1 title">
+                        Support
+                    </h2>
+
+                    <ul class="footer-list">
+
+                        <li class="footer-item">
+                            <a href="#" class="footer-link label-2">FAQ</a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="#" class="footer-link label-2">Virtual shopping</a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="#" class="footer-link label-2">Shipping and Returns</a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="#" class="footer-link label-2">Ring sizer</a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="#" class="footer-link label-2">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                <nav class="footer-nav">
+
+                    <h2 class="body-1 title">
+                        Company
+                    </h2>
+
+                    <ul class="footer-list">
+
+                        <li class="footer-item">
+                            <a href="#" class="footer-link label-2">About Us</a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="#" class="footer-link label-2">Stores</a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="#" class="footer-link label-2">What’s new?</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                <form class="footer-form">
+
+                    <label class="title-1 title">
+                        Get notified upon new arrivals
+                    </label>
+
+                    <input type="text" name="email" placeholder="Your Email-Id Here" autocomplete="off"
+                        class="input-field">
+
+                </form>
+
+
+                <ul class="social-list">
+
+                    <li class="social-item" style="--accent-color:hsl(350, 100%, 45%);" aria-label="pinterest">
+                        <i class="ri-pinterest-fill" aria-hidden="true"></i>
+                    </li>
+
+                    <li class="social-item" style="--accent-color:hsl(329, 59%, 50%);" aria-label="instagram">
+                        <i class="ri-instagram-line" aria-hidden="true"></i>
+                    </li>
+
+                    <li class="social-item" style="--accent-color:hsl(221, 89%, 54%);" aria-label="facebook">
+                        <i class="ri-facebook-fill" aria-hidden="true"></i>
+                    </li>
+
+                    <li class="social-item" style="--accent-color:hsl(203, 89%, 62%);" aria-label="twitter">
+                        <i class="ri-twitter-fill" aria-hidden="true"></i>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- ---- Footer Bottom ---- -->
+        <div class="footer-bottom">
+            <div class="container">
+
+                <div class="bottom-left text-center">
+
+                    <a href="#" class="bottom-link">Terms and conditions</a>
+
+                    <a href="#" class="bottom-link">Privacy Policiy</a>
+
+                    <span class="copyright">@2021 Elira Inc</span>
+
+                </div>
+
+                <div class="bottom-right text-center">
+
+                    <span class="lag">
+                        Lang
+                    </span>
+
+
+                    <span class="select">
+                        USA
+                        <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+                    </span>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- 
+    -- # BACK TO TOP
+     -->
+    <a href="#top" class="back-to-top" data-back-to-top>
+        <i class="ri-arrow-up-line" aria-hidden="true"></i>
+    </a>
+
+
+    <!-- 
+    -- # ALL JS LINKED
+     -->
+
+    <!-- ---- Main JS linked ---- -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- ---- Reveal JS linked ---- -->
+
+    <!-- ---- Swiper JS linked ---- -->
+
+</body>
+
+</html>
